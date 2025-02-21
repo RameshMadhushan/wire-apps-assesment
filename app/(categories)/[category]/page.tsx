@@ -60,7 +60,15 @@ const CategoryPage = async({params} : {params : Promise<{category : string}>} ) 
                         </>
                         
                     ) : (
-                        <></>
+                        <div
+                            className=" px-3 py-24 text-center col-span-2 md:col-span-3 lg:col-span-4 "
+                        >
+
+                            <p>
+                                Ooops... No products found
+                            </p>
+                        
+                        </div>
                     )
                 }
 
